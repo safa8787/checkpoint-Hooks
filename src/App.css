@@ -11,12 +11,18 @@
  gap: 90px;
 }
 .Navigation{
-  height: 150px;
+  height: 100px;
   width: 100vw;
   border: 1px solid rgb(75, 76, 78);
   display: flex;
+  
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+}
+.Navigation img{
+  width: 100px;
+  height: 60px;
+
 }
 .Navigation input{
   padding :10px 20pX;
@@ -64,21 +70,13 @@ width: 400px;
 
 
 .carte{
-  position: fixed;
-  width: 400px;
-  height: 400px;
-  top: 22vh;
-  left: 33vw;
-  background-color: rgb(199, 207, 205);
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
-}
-.carte img{
-  width: 400px;
-  height: 350px;
-}
 
 .footer {
   background-color: rgb(71, 68, 68);

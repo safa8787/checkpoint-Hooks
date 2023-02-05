@@ -1,9 +1,10 @@
 import React from 'react';
-
-const Carte = ({film}) => {
+import { useLocation } from 'react-router-dom';
+const Carte = () => {
+    const film=useLocation(). state
     return (
         <div className='carte'>
-            <img src={film.posterurl} alt=''/>
+           <h1>{film.description}</h1>
         </div>
     );
 }
